@@ -4,7 +4,7 @@ import { decrementCount, incrementCount, resetCount } from '../../Services/Actio
 
 const Counter = () => {
 
-    const count = useSelector(state => state.count)
+    const count = useSelector(state => state.counterReducer.count)
     const dispatch = useDispatch()
     const handleIncrese = () => {
         dispatch(incrementCount())
