@@ -35,7 +35,7 @@ const Counter = () => {
 5. provide the store in the root with provider
 6. To access in any state we will use useSelector from react-redux
 7. import dispatch and call from the react-redux
-8. dispatch the action indivitually.
+8. dispatch the action indivitual
 */
 
 export default Counter;
