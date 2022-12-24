@@ -1,10 +1,9 @@
 import React from 'react';
-import Counter from '../Counter/Counter';
 
 const Home = () => {
     return (
         <div>
-            <h1>Home Page</h1>
+            <h1>Let's Play with React Redux</h1>
         </div>
     );
 };

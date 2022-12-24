@@ -16,14 +16,16 @@ const Counter = () => {
         dispatch(decrementCount())
     }
     return (
-        <div>
-            <p>Counter: {count}</p>
-            <button onClick={handleIncrese}>Increase Number</button>
-            <button onClick={handleReset}>RESET Number</button>
-            <button onClick={handleDecrease}>Decrease Number</button>
+        <div className='mt-5'>
+            <h1 className='mb-5'>Counter: {count}</h1>
+            <button className='me-2 p-2' onClick={handleIncrese}>Increase Number</button>
+            <button className='me-2 p-2' onClick={handleReset}>RESET Number</button>
+            <button className='me-2 p-2' onClick={handleDecrease}>Decrease Number</button>
         </div>
     );
 };
+
+export default Counter;
 
 /*
  1. Declare a state: {count: 0}
@@ -37,5 +39,3 @@ const Counter = () => {
 7. import dispatch and call from the react-redux
 8. dispatch the action indivitual
 */
-
-export default Counter;

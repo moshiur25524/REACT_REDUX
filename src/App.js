@@ -9,12 +9,15 @@ import Todos from './components/Todos/Todos';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/counter' element={<Counter/>}/>
-        <Route path='/todos' element={<Todos/>}/>
-      </Routes>
+       <h1 className='bg-secondary text-white'>Welcome to React Redux</h1>
+      <Header />
+      <main>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/counter' element={<Counter />} />
+          <Route path='/todos' element={<Todos />} />
+        </Routes>
+      </main>
     </div>
   );
 }

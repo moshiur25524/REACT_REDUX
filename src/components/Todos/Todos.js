@@ -13,6 +13,7 @@ const Todos = () => {
 
     return (
         <div>
+          
             <h1>Todo app with react-redux</h1>
             {
                 isLoading && <h3>Loading...</h3>

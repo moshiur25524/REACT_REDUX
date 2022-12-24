@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+body {
+  background-color: rgb(220, 238, 245);;
+}
+
+main {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -9,12 +29,13 @@
 
 @media (min-width: 600px) {
   section {
-   grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
   }
 }
+
 @media (min-width: 768px) {
   section {
-   grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
   }
 }
 
@@ -24,7 +45,7 @@ section {
   padding: 1rem;
 }
 
-article{
+article {
   background-color: #282c34;
   color: white;
   padding: 0.5rem;
